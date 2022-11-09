@@ -1,0 +1,89 @@
+{
+    "project": "Project name",
+
+    "boardnames": {
+        "1": "To do",
+        "2": "In work",
+        "3": "Done"
+    },
+
+    "tasks": [
+        {
+            "todo": [
+                {
+                    "id": 1,
+                    "status":"srochno",
+                    "name":"exampletodo",
+                    "prosmotr":6,
+                    "time": "1 hour"
+                },
+                {
+                    "id": 2,
+                    "status":"nesrochno",
+                    "name":"exampletodo",
+                    "prosmotr":6,
+                    "time": "5 day"
+                }
+            ],
+
+            "inwork": [
+                {
+                    "id": 1,
+                    "progress": 6,
+                    "maxprogress": 10,
+                    "name":"exampleinwork",
+                    "time": "1 hour",
+                    "status":"srochno"
+                },
+                {
+                    "id": 2,
+                    "progress": 8,
+                    "maxprogress": 18,
+                    "name":"exampleinwork",
+                    "time": "1 day",
+                    "status":"med"
+                },
+                {
+                    "id": 3,
+                    "progress": 6,
+                    "maxprogress": 21,
+                    "name":"exampleinwork",
+                    "time": "3 day",
+                    "status":"nesrochno"
+                },
+                {
+                    "id": 4,
+                    "progress": 2,
+                    "maxprogress": 4,
+                    "name":"exampleinwork",
+                    "time": "5 day",
+                    "status":"supernesrochno"
+                }
+            ],
+
+            "done": [
+                {
+                    "id": 1,
+                    "name":"exampledone",
+                    "daten": "1",
+                    "datem": "May",
+                    "status":"srochno"
+                },
+                {
+                    "id": 2,
+                    "name":"exampledone",
+                    "daten": "1",
+                    "datem": "May",
+                    "status":"done"
+                },
+                {
+                    "id": 3,
+                    "name":"exampledone",
+                    "daten": "1",
+                    "datem": "May",
+                    "status":"done"
+                }
+            ]
+        }
+    ]
+}
